@@ -32,12 +32,13 @@
 
     <div style="padding: 20px;">
         <h1>Les différents habitats</h1>
-        <p>A brocéliande vous trouverez différents habitats existant depuis 1996.
+        <p>A brocéliande vous trouverez différents habitats existant depuis 1996.<br>
             <br>la savane<br>
-
-            <br>la Jungle <br>
-
-            <br>les Marais<br>
+        <div id="La Savane"><img src="../html/habitatsavane.php"></div><br>
+        <br>la Jungle <br>
+        <div id="La Jungle"><img src="../html/habitatjungle.php"></div><br>
+        <br>les Marais<br>
+        <div id="Les Marais"><img src="../html/habitatmarais.php"></div><br>
         </p>
     </div>
     <footer>
