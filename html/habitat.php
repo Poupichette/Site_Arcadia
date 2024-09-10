@@ -26,15 +26,9 @@
 
 <body>
 
-    <div class="navbar">
-        <img src="../elementsCommuns/logoArcadia.jpg" alt="logoSiteArcadia" height="100px" width="150px"
-            align-content="left">
-        <a href="http://localhost/Site_Arcadia/index.html">Accueil</a>
-        <a href="http://localhost/Site_Arcadia/html/habitat.html">Habitat</a>
-        <a href="http://localhost/Site_Arcadia/html/services.html">Services</a>
-        <a href="http://localhost/Site_Arcadia/html/connexion.html">Connexion</a>
-        <a href="http://localhost/Site_Arcadia/html/contact.html">Contact</a>
-    </div>
+    <?php
+    include 'modules/navbar.html';
+    ?>
 
     <div style="padding: 20px;">
         <h1>Les différents habitats</h1>
@@ -46,7 +40,11 @@
             <br>les Marais<br>
         </p>
     </div>
+    <footer>
+        <p>Contact the author of this page:</p>
 
+
+    </footer>
 </body>
 
 </html>

@@ -25,27 +25,17 @@
 </head>
 
 <body>
-
-    <div class="navbar">
-        <img src="../elementsCommuns/logoArcadia.jpg" alt="logoSiteArcadia" height="100px" width="150px"
-            align-content="left">
-        <a href="http://localhost/Site_Arcadia/index.html">Accueil</a>
-        <a href="http://localhost/Site_Arcadia/html/habitat.html">Habitat</a>
-        <a href="http://localhost/Site_Arcadia/html/services.html">Services</a>
-        <a href="http://localhost/Site_Arcadia/html/connexion.html">Connexion</a>
-        <a href="http://localhost/Site_Arcadia/html/contact.html">Contact</a>
-    </div>
+    <?php
+    include 'html/modules/navbar.html';
+    ?>
 
     <div style="padding: 20px;">
-        <h1>Les différents habitats</h1>
-        <p>A brocéliande vous trouverez différents habitats existant depuis 1996.
-            <br>la savane<br>
-
-            <br>la Jungle <br>et
-            <br>les Marais<br>
+        <h1>Bienvenue au Zoo Arcadia</h1>
+        <p>Au zoo Arcadia vous trouverez un panel d'animaux venus des trois habitats que notre enceinte entretient
+            depuis 1996.
+            <br>Les animaux de la savane, les animaux de la Jungle et les animaux des Marais
         </p>
     </div>
-
 </body>
 
 </html>
