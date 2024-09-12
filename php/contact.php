@@ -62,6 +62,13 @@
             <i class="ion-chevron-right"></i>
         </a>
     </div>
+    <footer>
+
+        <?php
+        include '../html/modules/footer.html';
+        ?>
+
+    </footer>
 </body>
 
 </html>

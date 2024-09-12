@@ -32,14 +32,21 @@
 
     </div>
 
-    <div style="padding: 20px;">
-        <h1>Bienvenue au Zoo Arcadia</h1>
-        <p>Au zoo Arcadia vous trouverez un panel d'animaux venus des trois habitats que notre enceinte entretient
-            depuis 1996.
-            <br>Les animaux de la savane, les animaux de la Jungle et les animaux des Marais
-        </p>
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
     </div>
+    <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+    </div>
+    <footer>
 
+        <?php
+        include '../html/modules/footer.html';
+        ?>
+
+    </footer>
 </body>
 
 

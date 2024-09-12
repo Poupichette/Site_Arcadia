@@ -43,6 +43,13 @@
         <div id="Les Marais"><img src="../images/habitat_marais/marais.jpg"></div><br>
         </p>
     </div>
+    <footer>
+
+        <?php
+        include '../html/modules/footer.html';
+        ?>
+
+    </footer>
 
 </body>
 

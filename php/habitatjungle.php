@@ -38,6 +38,13 @@
             <br>Les animaux de la savane, les animaux de la Jungle et les animaux des Marais
         </p>
     </div>
+    <footer>
+
+        <?php
+        include '../html/modules/footer.html';
+        ?>
+
+    </footer>
 </body>
 
 </html>
