@@ -26,22 +26,41 @@
 
 <body>
 
-    <div class="navbar">
-        <img src="../elementsCommuns/logoArcadia.jpg" alt="logoSiteArcadia" height="100px" width="150px"
-            align-content="left">
-        <a href="http://localhost/Site_Arcadia/index.html">Accueil</a>
-        <a href="http://localhost/Site_Arcadia/html/habitat.html">Habitat</a>
-        <a href="http://localhost/Site_Arcadia/html/services.html">Services</a>
-        <a href="http://localhost/Site_Arcadia/html/connexion.html">Connexion</a>
-        <a href="http://localhost/Site_Arcadia/html/contact.html">Contact</a>
-    </div>
+    <?php
+    include '../html/modules/navbar.html';
+    ?>
 
     <div style="padding: 20px;">
-        <h1>Bienvenue au Zoo Arcadia</h1>
-        <p>Au zoo Arcadia vous trouverez un panel d'animaux venus des trois habitats que notre enceinte entretient
-            depuis 1996.
-            <br>Les animaux de la savane, les animaux de la Jungle et les animaux des Marais
+        <h1>Nous Contacter</h1>
+        <p>Pour toute information relatives aux activités du Zoo n'hésitez pas à nous envoyer un message.
+            <br>Nous serons ravis de vous retrouver parmi nos visiteurs
         </p>
+    </div>
+    <div>
+        <form action="/ma-page-de-traitement" method="post">
+            <ul>
+                <li>
+                    <label for="name">Nom&nbsp;:</label>
+                    <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                    <label for="mail">E-mail&nbsp;:</label>
+                    <input type="email" id="mail" name="user_mail" />
+                </li>
+                <li>
+                    <label for="msg">Message&nbsp;:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+            </ul>
+        </form>
+        <div class="button">
+            <button type="submit">Envoyer le message</button>
+        </div>
+        <a href="../index.php"><button>Retour à l'accueil</button></a>
+        <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647;">
+            <i class="ion-chevron-right"></i>
+            <i class="ion-chevron-right"></i>
+        </a>
     </div>
 </body>
 

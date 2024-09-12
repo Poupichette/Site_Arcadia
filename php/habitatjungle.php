@@ -26,15 +26,10 @@
 
 <body>
 
-    <div class="navbar">
-        <img src="../elementsCommuns/logoArcadia.jpg" alt="logoSiteArcadia" height="100px" width="150px"
-            align-content="left">
-        <a href="http://localhost/Site_Arcadia/index.html">Accueil</a>
-        <a href="http://localhost/Site_Arcadia/html/habitat.html">Habitat</a>
-        <a href="http://localhost/Site_Arcadia/html/services.html">Services</a>
-        <a href="http://localhost/Site_Arcadia/html/connexion.html">Connexion</a>
-        <a href="http://localhost/Site_Arcadia/html/contact.html">Contact</a>
-    </div>
+    <?php
+    include '../html/modules/navbar.html';
+    ?>
+    <img src="../Images/elementsCommuns/banniereZoo.jpg" class="img-fluid" alt="...">
     <img src="/habitat_jungle/jungle.jpg" a href="">
     <div style="padding: 20px;">
         <h1>Bienvenue au Zoo Arcadia</h1>

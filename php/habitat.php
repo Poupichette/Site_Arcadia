@@ -26,26 +26,24 @@
 
 <body>
 
+
     <?php
-    include 'modules/navbar.html';
+    include '../html/modules/navbar.html';
     ?>
+    <img src="../Images/elementsCommuns/banniereZoo.jpg" class="img-fluid" alt="...">
 
     <div style="padding: 20px;">
         <h1>Les différents habitats</h1>
         <p>A brocéliande vous trouverez différents habitats existant depuis 1996.<br>
             <br>la savane<br>
-        <div id="La Savane"><img src="../html/habitatsavane.php"></div><br>
+        <div id="La Savane"><img src="../images/habit_savane/savane-1.jpg"></div><br>
         <br>la Jungle <br>
-        <div id="La Jungle"><img src="../html/habitatjungle.php"></div><br>
+        <div id="La Jungle"><img src="../images/habitat_jungle/jungle.jpg"></div><br>
         <br>les Marais<br>
-        <div id="Les Marais"><img src="../html/habitatmarais.php"></div><br>
+        <div id="Les Marais"><img src="../images/habitat_marais/marais.jpg"></div><br>
         </p>
     </div>
-    <footer>
-        <p>Contact the author of this page:</p>
 
-
-    </footer>
 </body>
 
 </html>

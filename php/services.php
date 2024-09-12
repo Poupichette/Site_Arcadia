@@ -27,18 +27,19 @@
 <body>
 
     <?php
-    include 'modules/navbar.html';
+    include '../html/modules/navbar.html';
     ?>
 
+    <img src="../Images/elementsCommuns/banniereZoo.jpg" class="img-fluid" alt="...">
     <div style="padding: 20px;">
         <h1>Les différents habitats</h1>
 
-        <p>A brocéliande vous trouverez différents habitats existant depuis 1996.
-            <img src="../habitat_savane/savane-1.jpg">savane<br>
+        <p>A brocéliande Nous vous proposons différents services.
+            <img src="../Images/Services/restaurationZooSigean.jpg">Restauration<br>
 
-            <img src="../habitat_jungle/jungle.jpg">la Jungle <br>
+            <img src="../Images/Services/SafaritrainLisieux.jpg">Safari en Train<br>
 
-            <img src="../habitat_marais/Marais.jpg">les Marais<br>
+            <img src="../Images/Services/visiteTouristiqueZoo.jpeg">Visite Touristique<br>
         </p>
     </div>
 

@@ -42,19 +42,7 @@
             <br>Les animaux de la savane, les animaux de la Jungle et les animaux des Marais
         </p>
     </div>
-    <footer>
-        <footer aria-label="Pied de page">
-            <nav class="navbar navbar-expand-lg navbar-dark navbar-custom-footer" aria-label="Footer Navigation">
-                <div class="d-flex justify-content-around w-100 ">
-                    <a href="https://twitter.com/?lang=fr" class="social" aria-label="lien twitter"> <i
-                            class="fa-brands fa-twitter" aria-hidden="true"></i></a>
-                    <a href="https://www.facebook.com/?locale=fr_FR" class="social" aria-label="lien facebook"><i
-                            class="fa-brands fa-facebook" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/" class="social" aria-label="lien instagram"><i
-                            class="fa-brands fa-instagram" aria-hidden="true"></i></a>
-                </div>
-            </nav>
-        </footer>
+
 </body>
 
 </html>
