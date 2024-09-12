@@ -35,11 +35,11 @@
         <h1>Les différents habitats</h1>
 
         <p>A brocéliande Nous vous proposons différents services.
-            <img src="../Images/Services/restaurationZooSigean.jpg">Restauration<br>
+            <img src="../Images/Services/restaurationZooSigean.jpg" class="Services">Restauration<br>
 
-            <img src="../Images/Services/SafaritrainLisieux.jpg">Safari en Train<br>
+            <img src="../Images/Services/SafaritrainLisieux.jpg" class="Services">Safari en Train<br>
 
-            <img src="../Images/Services/visiteTouristiqueZoo.jpeg">Visite Touristique<br>
+            <img src="../Images/Services/visiteTouristiqueZoo.jpeg" class="Services">Visite Touristique<br>
         </p>
     </div>
 
