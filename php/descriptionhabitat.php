@@ -46,3 +46,7 @@
 </body>
 
 </html>
+
+/* rajout d'une info sur comment disposer les images */
+<img src="../elementsCommuns/logoArcadia.jpg" alt="logoSiteArcadia" height="100px" width="150px"
+    align-content="left">

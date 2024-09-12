@@ -35,12 +35,12 @@
     <div style="padding: 20px;">
         <h1>Les différents habitats</h1>
         <p>A brocéliande vous trouverez différents habitats existant depuis 1996.<br>
-            <br>la savane<br>
-        <div id="La Savane"><img src="../images/habit_savane/savane-1.jpg"></div><br>
-        <br>la Jungle <br>
-        <div id="La Jungle"><img src="../images/habitat_jungle/jungle.jpg"></div><br>
-        <br>les Marais<br>
-        <div id="Les Marais"><img src="../images/habitat_marais/marais.jpg"></div><br>
+            La Savane<br>
+        <div id="La Savane"><img src="../images/habitat_savane/savane-1.jpg" height="200px" width="300px"></div><br>
+        <br>La Jungle <br>
+        <div id="La Jungle"><img src="../images/habitat_jungle/jungle.jpg" height="200px" width="300px"></div><br>
+        <br>Les Marais<br>
+        <div id="Les Marais"><img src="../images/habitat_marais/marais.jpg" height="200px" width="300px"></div><br>
         </p>
     </div>
     <footer>

@@ -15,14 +15,10 @@
 
 <html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Accueil du Zoo</title>
+<title>Accueil du Zoo</title>
 
 
-</head>
 
 <body>
 
@@ -34,12 +30,14 @@
     <div style="padding: 20px;">
         <h1>Les différents habitats</h1>
 
-        <p>A brocéliande Nous vous proposons différents services.
-            <img src="../Images/Services/restaurationZooSigean.jpg" class="Services">Restauration<br>
+        <p>A brocéliande Nous vous proposons différents services.<br>
 
-            <img src="../Images/Services/SafaritrainLisieux.jpg" class="Services">Safari en Train<br>
-
-            <img src="../Images/Services/visiteTouristiqueZoo.jpeg" class="Services">Visite Touristique<br>
+            <img src="../Images/Services/restaurationZooSigean.jpg" class="Services" height="200px" width="300px">Restauration<br>
+            <br>
+            <img src="../Images/Services/SafaritrainLisieux.jpg" class="Services" height="200px" width="300px">Safari en Train<br>
+            <br>
+            <img src="../Images/Services/visiteTouristiqueZoo.jpeg" class="Services" height="200px" width="300px">Visite Touristique<br>
+            <br>
         </p>
     </div>
 

@@ -27,6 +27,7 @@
 <body>
     <?php
     include 'html/modules/navbar.html';
+    include 'html/modules/logo.html';
     ?>
 
     <div style="padding: 20px;">
