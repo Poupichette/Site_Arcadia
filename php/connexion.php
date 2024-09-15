@@ -18,11 +18,13 @@
 <title>Accueil du Zoo</title>
 
 <body>
-
-
-    <?php
-    include '../html/modules/navbar.html';
-    ?>
+    <header>
+        <div class="navbar">
+            <?php
+            include '../html/modules/navbar.html';
+            ?>
+        </div>
+    </header>
     <div class="form-floating mb-3">
         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
         <label for="floatingInput">Email address</label>
