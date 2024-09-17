@@ -25,14 +25,19 @@
 </head>
 
 <body>
-
-
-    <?php
-    include '../html/modules/navbar.html';
-    ?>
-    <img src="../Images/elementsCommuns/banniereZoo.jpg" class="img-fluid" alt="...">
-
-    <div style="padding: 20px;">
+    <header>
+        <div>
+            <?php
+            include 'C:\wamp64\www\Site_Arcadia\html\modules\logo.html';
+            ?>
+        </div>
+        <div>
+            <?php
+            include 'C:\wamp64\www\Site_Arcadia\html\modules\navbar.html';
+            ?>
+        </div>
+    </header>
+    <div class="container" style="padding: 20px;">
         <h1>Les différents habitats</h1>
         <p>A brocéliande vous trouverez différents habitats existant depuis 1996.<br>
             La Savane<br>

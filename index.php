@@ -24,15 +24,20 @@
 
 </head>
 
-<body>
-    <div>
-        <img src="../Images/elementsCommuns/banniereZoo.jpg" class="img-fluid" alt="...">
-        <?php
-        include 'html/modules/navbar.html';
-        include 'html/modules/logo.html';
-        ?>
-    </div>
+<body background-image="cover">
 
+    <header>
+        <div>
+            <?php
+            include 'C:\wamp64\www\Site_Arcadia\html\modules\logo.html';
+            ?>
+        </div>
+        <div>
+            <?php
+            include 'C:\wamp64\www\Site_Arcadia\html\modules\navbar.html';
+            ?>
+        </div>
+    </header>
     <div style="padding: 20px;">
         <h1>Bienvenue au Zoo Arcadia</h1>
         <p>Au zoo Arcadia vous trouverez un panel d'animaux venus des trois habitats que notre enceinte entretient

@@ -34,9 +34,12 @@
         <h1>Bienvenue au Zoo Arcadia</h1>
         <p>Au zoo Arcadia vous trouverez un panel d'animaux venus des trois habitats que notre enceinte entretient
             depuis 1996.
-            <br>Les animaux de la savane, les animaux de la Jungle et les animaux des Marais
+            <br>Les animaux de la savane<br>
         </p>
     </div>
+    <img src="C:\wamp64\www\Site_Arcadia\Images\animaux_savane\Fennec-Macadamia.jpg" alt="Macadamia">
+    <img src="C:\wamp64\www\Site_Arcadia\Images\animaux_savane\Python-squizz.jpg" alt="Squizz (ou squezzie)">
+    <img src="C:\wamp64\www\Site_Arcadia\Images\animaux_savane\ti-Namir.jpg" alt="Namir">
     <footer>
 
         <?php

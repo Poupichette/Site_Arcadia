@@ -22,6 +22,11 @@
 
 <body>
     <header>
+        <div class="logo">
+            <?php
+            include '../html/modules/logo.html';
+            ?>
+        </div>
         <?php
         include '../html/modules/navbar.html';
         ?>

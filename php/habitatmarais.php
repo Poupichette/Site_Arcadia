@@ -37,6 +37,7 @@
             <br>Les animaux de la savane, les animaux de la Jungle et les animaux des Marais
         </p>
     </div>
+    <img src="C:\wamp64\www\Site_Arcadia\Images\animaux_savane\Fennec-Macadamia.jpg" alt="Macadamia">
     <footer>
 
         <?php
