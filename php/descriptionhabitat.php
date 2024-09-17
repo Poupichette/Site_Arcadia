@@ -26,13 +26,16 @@
 
 <body>
 
+    <div class="arriereplan">
+        <?php
+        include '../html/modules/ImageSableArrierePlan.html'
+        ?>
+    </div>
     <div class="navbar">
-        <img src="assets/LogoArcadia.jpg" alt="logoSiteArcadia" height="100px" width="150px" align-content="left">
-        <a href="index.html">Accueil</a>
-        <a href="habitat.html">Habitat</a>
-        <a href="services.html">Services</a>
-        <a href="connexion.html">Connexion</a>
-        <a href="contact.html">Contact</a>
+        <?php
+        include '../html/modules/navbar.html'
+        ?>
+
     </div>
 
     <div style="padding: 20px;">

@@ -19,6 +19,11 @@
 
 <body>
     <header>
+        <div class="arriereplan">
+            <?php
+            include '../html/modules/ImageSableArrierePlan.html'
+            ?>
+        </div>
         <div class="navbar">
             <?php
             include '../html/modules/navbar.html';

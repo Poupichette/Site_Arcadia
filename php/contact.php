@@ -25,11 +25,18 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <?php
-        include '../html/modules/navbar.html';
-        ?>
-    </div>
+    <header>
+        <div class="arriereplan">
+            <?php
+            include '../html/modules/ImageSableArrierePlan.html'
+            ?>
+        </div>
+        <div class="navbar">
+            <?php
+            include '../html/modules/navbar.html';
+            ?>
+        </div>
+    </header>
     <div style="padding: 20px;">
         <h1>Nous Contacter</h1>
         <p>Pour toute information relatives aux activités du Zoo n'hésitez pas à nous envoyer un message.

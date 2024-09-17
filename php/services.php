@@ -21,23 +21,24 @@
 
 
 <body>
+    <header>
+        <?php
+        include '../html/modules/navbar.html';
+        ?>
 
-    <?php
-    include '../html/modules/navbar.html';
-    ?>
+        <img src="../Images/elementsCommuns/banniereZoo.jpg" class="img-fluid" alt="...">
+        <div style="padding: 20px;">
+    </header>
+    <h1>Les différents habitats</h1>
 
-    <img src="../Images/elementsCommuns/banniereZoo.jpg" class="img-fluid" alt="...">
-    <div style="padding: 20px;">
-        <h1>Les différents habitats</h1>
-
-        <p>A brocéliande Nous vous proposons différents services.<br>
-
-            <img src="../Images/Services/restaurationZooSigean.jpg" class="Services" height="200px" width="300px">Restauration<br>
-            <br>
-            <img src="../Images/Services/SafaritrainLisieux.jpg" class="Services" height="200px" width="300px">Safari en Train<br>
-            <br>
-            <img src="../Images/Services/visiteTouristiqueZoo.jpeg" class="Services" height="200px" width="300px">Visite Touristique<br>
-            <br>
+    <p>A brocéliande Nous vous proposons différents services.<br>
+    <div class="services">
+        <img src="../Images/Services/restaurationZooSigean.jpg" class="Services" height="200px" width="300px">Restauration<br>
+        <br>
+        <img src="../Images/Services/SafaritrainLisieux.jpg" class="Services" height="200px" width="300px">Safari en Train<br>
+        <br>
+        <img src="../Images/Services/visiteTouristiqueZoo.jpeg" class="Services" height="200px" width="300px">Visite Touristique<br>
+        <br>
         </p>
     </div>
 

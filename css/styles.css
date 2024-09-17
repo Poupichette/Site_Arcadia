@@ -1,5 +1,16 @@
 #navbar {
-    text-align: justify;
+    text-align: center;
     display: flex;
 
+}
+
+#arriereplan {
+    background-image: url('../html/modules/ImageSableArrierePlan.html') cover;
+    background-color: RGBa(255, 255, 0, 0.2);
+
+}
+
+#services {
+    display: flex;
+    flex-direction: column;
 }

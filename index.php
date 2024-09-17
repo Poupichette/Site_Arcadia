@@ -25,10 +25,13 @@
 </head>
 
 <body>
-    <?php
-    include 'html/modules/navbar.html';
-    include 'html/modules/logo.html';
-    ?>
+    <div>
+        <img src="../Images/elementsCommuns/banniereZoo.jpg" class="img-fluid" alt="...">
+        <?php
+        include 'html/modules/navbar.html';
+        include 'html/modules/logo.html';
+        ?>
+    </div>
 
     <div style="padding: 20px;">
         <h1>Bienvenue au Zoo Arcadia</h1>
